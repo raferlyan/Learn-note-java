@@ -35,8 +35,6 @@ public class JsonObjectDemo {
                         Objects.equals(jsonObject.getString("table_name"), "yjc"))
                         .collect(Collectors.toList());
         System.out.println(data.size());
-
-
     }
 
     /**

@@ -12,6 +12,9 @@ public class MapDemo {
         test01();
     }
 
+    /**
+     * 字典键不能重复
+     */
     public static void test01(){
         Map<String, String> map = new HashMap<>();
         map.put("METER_ID","8000000020012784");
