@@ -18,6 +18,9 @@ public class JavaCvTest {
         test();
     }
 
+    /**
+     * 图片合成视频
+     */
     public static void test(){
         try(FFmpegFrameRecorder recorder = new FFmpegFrameRecorder("/Users/raferlyan/Downloads/video.mp4", 640, 480);
             Java2DFrameConverter converter = new Java2DFrameConverter()){

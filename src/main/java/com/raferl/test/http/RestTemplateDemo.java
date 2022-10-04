@@ -1,4 +1,4 @@
-package com.raferl.test.restTemplate;
+package com.raferl.test.http;
 
 import com.alibaba.fastjson.JSONObject;
 import org.springframework.web.client.RestTemplate;
